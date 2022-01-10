@@ -19,12 +19,12 @@
 <meta property="og:site_name" content="Krysia">
 <meta property="og:description" content="torch x &#x3D; x.view(-1, …)理解在torch里面，view函数相当于numpy的reshape 12345678910111213141516a &#x3D; torch.arange(1, 17)  # a&amp;#x27;s shape is (16,) a.view(4, 4) # output belowtensor([[ 1,  2,  3,  4],        [ 5,  6,">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/2021/08/imgs/star.jpg">
+<meta property="og:image" content="http://example.com/2021/08/30/imgs/star.jpg">
 <meta property="article:published_time" content="2021-08-30T11:26:00.000Z">
-<meta property="article:modified_time" content="2022-01-10T06:26:32.200Z">
+<meta property="article:modified_time" content="2022-01-10T06:53:00.038Z">
 <meta property="article:author" content="Krysia">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/2021/08/imgs/star.jpg">
+<meta name="twitter:image" content="http://example.com/2021/08/30/imgs/star.jpg">
     
 
     
@@ -183,7 +183,7 @@
 <div class="article-date">
   <i class="fa fa-calendar-plus-o"></i>
   <a href="/2021/08/30/my-blog/" class="article-date">
-     <time datetime="2022-01-10T06:26:32.200Z" itemprop="dateModified">2022-01-10</time>
+     <time datetime="2022-01-10T06:53:00.038Z" itemprop="dateModified">2022-01-10</time>
   </a>
 </div>
 
@@ -205,7 +205,7 @@
 
             
 
-            <p><img src="../../imgs/star.jpg" alt="background"></p>
+            <p><img src="./../imgs/star.jpg" alt="background"></p>
 <h3 id="torch-x-x-view-1-…-理解"><a href="#torch-x-x-view-1-…-理解" class="headerlink" title="torch x = x.view(-1, …)理解"></a><strong>torch x = x.view(-1, …)理解</strong></h3><p>在torch里面，view函数相当于numpy的reshape</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">a = torch.arange(1, 17)  # a&#x27;s shape is (16,)</span><br><span class="line"> </span><br><span class="line">a.view(4, 4) # output below</span><br><span class="line">tensor([[ 1,  2,  3,  4],</span><br><span class="line">        [ 5,  6,  7,  8],</span><br><span class="line">        [ 9, 10, 11, 12],</span><br><span class="line">        [13, 14, 15, 16]])</span><br><span class="line">[torch.FloatTensor of size 4x4]</span><br><span class="line"> </span><br><span class="line">a.view(2, 2, 4) # output below</span><br><span class="line">tensor([[[ 1,  2,  3,  4],</span><br><span class="line">         [ 5,  6,  7,  8]],</span><br><span class="line"> </span><br><span class="line">        [[ 9, 10, 11, 12],</span><br><span class="line">         [13, 14, 15, 16]]])</span><br><span class="line">[torch.FloatTensor of size 2x2x4]</span><br></pre></td></tr></table></figure>
 <p>在函数的参数中经常可以看到-1例如x.view(-1, 4)</p>
@@ -221,7 +221,7 @@
 
 
 
-    <a data-url="http://example.com/2021/08/30/my-blog/" data-id="cky8brdo300051ctfapgxb309" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://example.com/2021/08/30/my-blog/" data-id="cky8bwcvk00079ktfcncuf2zn" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -292,7 +292,7 @@
             "name": "Krysia"
         },
         "headline": "Boring Search",
-        "image": "http://example.com../../imgs/star.jpg",
+        "image": "http://example.com./../imgs/star.jpg",
         "keywords": "",
         "genre": "",
         "datePublished": "2021-08-30",
@@ -455,7 +455,7 @@ torch x = x.view(-1, …)理解在torch里面，view函数相当于numpy的resha
                             <a href="/2021/08/30/my-blog/" class="thumbnail">
     
     
-        <span style="background-image:url(../../imgs/star.jpg)" alt="Boring Search" class="thumbnail-image"></span>
+        <span style="background-image:url(./../imgs/star.jpg)" alt="Boring Search" class="thumbnail-image"></span>
     
     
 </a>
